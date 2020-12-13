@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>logo-round-192x192.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.ahonn.LaunchBar.action.flomo</string>
+	<key>CFBundleName</key>
+	<string>Send to flomo</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>LBArgument</key>
+	<string>string</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBArgument</key>
+		<string>string</string>
+		<key>LBAuthor</key>
+		<string>Ahonn</string>
+		<key>LBEmail</key>
+		<string>yuexunjiang@gmail.com</string>
+		<key>LBTwitter</key>
+		<string>ahonnjiang</string>
+		<key>LBWebsiteURL</key>
+		<string>https://www.ahonn.me</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>string</string>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
